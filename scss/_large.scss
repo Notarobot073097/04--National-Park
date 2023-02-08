@@ -1,0 +1,31 @@
+header, main, nav, footer{
+    max-width: 60rem;
+    margin: auto;
+}
+
+div#headerWrapper {
+    background-image: url(../images/nationalparkheader-assets/header-large.jpg);
+    height: 400px;
+    color: #ffffff;
+    background-size: cover;
+    background-position: center bottom;
+  }
+
+nav ul li a{
+    padding: .5rem 1rem;
+}
+
+nav {
+    ul{
+        justify-content: flex-start;
+        border: none;
+        margin: auto;
+    }
+    ul li a{
+        margin: auto;
+    }
+}
+
+div.figureGallery figure{
+    flex-basis: 20%;
+}

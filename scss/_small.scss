@@ -1,0 +1,117 @@
+/* Prevent adjustments of font size after orientation changes. */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  height: 100%;
+}
+
+/*---- apply a natural box layout model to all elements -------*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  font-family: $defaultfont;
+  font-weight: $normalweight;
+  color: $textcolor;
+}
+
+div#headerWrapper {
+  background-image: url(../images/nationalparkheader-assets/header-small.jpg);
+  height: 140px;
+  color: #ffffff;
+}
+
+div.nameBar{
+  background-color: #00000050;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: $boldweight;
+  padding: 1rem 2vw;
+}
+
+header {
+  h1 {
+    background-color: #00000050;
+    padding: 1rem 2vw;
+    font-size: 1rem;
+    font-weight: $normalweight;
+  }
+}
+
+main{
+  h1{
+    padding: 0 $gutter;
+  }
+}
+
+#navWrapper {
+  background-color: #fff;
+}
+
+nav {
+  background-color: darken($menucolor, 10%);
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+    justify-content: center;
+    li {
+      font-size: 1.2rem;
+    }
+  }
+  li.active {
+    background-color: darken($menucolor, 20%);
+  }
+  a {
+    color: $secondaryColor;
+    display: block;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    &:hover {
+      background-color: lighten($menucolor, 10%);
+      color : darken($textcolor, 10%);
+    }
+  }
+  ul li a{
+    border-top: 1px solid $secondaryColor;
+  }
+}
+
+div.figureGallery{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.figureGallery figure{
+  flex-basis: 46%;
+  margin: 1rem 2%;
+}
+
+div.figureGallery figure img{
+  width: 100%;
+}
+
+figcaption{
+  text-align: center;
+  font-weight: $lightweight;
+  font-size: 1.2rem;
+}
+
+
+footer{
+  padding: 0.25rem $gutter;
+  max-width: 80%;
+  p{
+    margin: 0;
+    font-weight: $lightweight;
+    text-align: center;
+  }
+}
