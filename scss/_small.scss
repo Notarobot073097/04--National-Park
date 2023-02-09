@@ -43,9 +43,46 @@ header {
   }
 }
 
+img{
+  position: relative;
+}
+
+
 main{
-  h1{
-    padding: 0 $gutter;
+  padding: 0rem 2%;
+  min-height: 10rem;
+
+
+@keyframes bounce {
+  0% {bottom: 0px; animation-timing-function: ease-out;}
+  25% {bottom: 10px; animation-timing-function: ease-in;}
+  50% {bottom: 0px; animation-timing-function: ease-out;}
+  75% {bottom: 5px; animation-timing-function: ease-in;}
+  100% {bottom: 0px}
+}
+
+div.card:hover img{
+  animation: bounce 1s 1;
+}
+
+  div.card-deck{
+  display: flex;
+  }
+
+  .card{
+    flex-basis: 33%;
+    border: 1px solid #000000;
+    border-radius: 1rem;
+    margin: 1rem 0;
+    text-align: center;
+    
+    section{
+      background-color: #9a8842;
+      border-radius: 1rem 1rem 0 0;
+      padding: 0rem 1rem;
+      font-weight: $boldweight;
+      color: #000000;
+    }
   }
 }
 
