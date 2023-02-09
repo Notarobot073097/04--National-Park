@@ -47,7 +47,6 @@ img{
   position: relative;
 }
 
-
 main{
   padding: 0rem 2%;
   min-height: 10rem;
@@ -87,60 +86,48 @@ div.card:hover img{
 }
 
 #navWrapper {
-  background-color: #fff;
+  background-color: $secondaryColor;
 }
 
 nav {
-  background-color: darken($menucolor, 10%);
+  
+button{
+background: transparent;
+border: none;
+font-size: 1.5rem; 
+padding: 0.5rem;  
+} //end of Button
 
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: block;
-    justify-content: center;
-    li {
-      font-size: 1.2rem;
-    }
-  }
-  li.active {
-    background-color: darken($menucolor, 20%);
-  }
-  a {
-    color: $secondaryColor;
-    display: block;
-    padding: 0.5rem;
-    text-align: center;
-    text-decoration: none;
-    &:hover {
-      background-color: lighten($menucolor, 10%);
-      color : darken($textcolor, 10%);
-    }
-  }
-  ul li a{
-    border-top: 1px solid $secondaryColor;
-  }
+ul{
+  display: none;
+  list-style-type: none;
+}//end of ul
+
+ul.open{
+display: block;
 }
 
-div.figureGallery{
-  display: flex;
-  flex-wrap: wrap;
+ul li{
+  border-bottom: 1px solid #22222250;
 }
 
-div.figureGallery figure{
-  flex-basis: 46%;
-  margin: 1rem 2%;
-}
-
-div.figureGallery figure img{
-  width: 100%;
-}
-
-figcaption{
-  text-align: center;
+ul li a{
+  display: block;
   font-weight: $lightweight;
-  font-size: 1.2rem;
-}
+  text-decoration: none;
+  color: $textcolor;
+  padding: 0.9rem 1vw;  
+  } //end of anchors
+
+  ul li.active a{
+    background-color: darken($secondaryColor, 10%);
+  }
+
+  ul li a:hover{
+    background-color: darken($secondaryColor, 5%);
+  }
+
+} //end of Nav
 
 
 footer{

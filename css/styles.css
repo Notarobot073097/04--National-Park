@@ -404,58 +404,37 @@ main .card section {
 }
 
 #navWrapper {
-  background-color: #fff;
+  background-color: #f2ad46;
 }
 
-nav {
-  background-color: #9e2c25;
+nav button {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  padding: 0.5rem;
 }
 nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  display: none;
+  list-style-type: none;
+}
+nav ul.open {
   display: block;
-  justify-content: center;
 }
 nav ul li {
-  font-size: 1.2rem;
-}
-nav li.active {
-  background-color: #74201c;
-}
-nav a {
-  color: #ffffff;
-  display: block;
-  padding: 0.5rem;
-  text-align: center;
-  text-decoration: none;
-}
-nav a:hover {
-  background-color: #d65a53;
-  color: #090909;
+  border-bottom: 1px solid rgba(34, 34, 34, 0.3137254902);
 }
 nav ul li a {
-  border-top: 1px solid #ffffff;
-}
-
-div.figureGallery {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-div.figureGallery figure {
-  flex-basis: 46%;
-  margin: 1rem 2%;
-}
-
-div.figureGallery figure img {
-  width: 100%;
-}
-
-figcaption {
-  text-align: center;
+  display: block;
   font-weight: 300;
-  font-size: 1.2rem;
+  text-decoration: none;
+  color: #222;
+  padding: 0.9rem 1vw;
+}
+nav ul li.active a {
+  background-color: #ef9816;
+}
+nav ul li a:hover {
+  background-color: #f0a22e;
 }
 
 footer {
@@ -475,15 +454,19 @@ footer p {
     color: #ffffff;
   }
   nav ul {
-    display: flex;
+    display: none;
+  }
+  nav ul.open {
+    display: block;
     justify-content: space-between;
+    border: none;
+  }
+  nav ul li {
+    border: none;
   }
   nav ul li a {
     border: none;
     text-align: center;
-  }
-  div.figureGallery figure {
-    flex-basis: 25%;
   }
 }
 @media only screen and (min-width: 60rem) {
@@ -498,18 +481,18 @@ footer p {
     background-size: cover;
     background-position: center bottom;
   }
-  nav ul li a {
-    padding: 0.5rem 1rem;
+  nav button {
+    display: none;
   }
-  nav ul {
-    justify-content: flex-start;
+  nav ul, nav ul.open {
+    margin-left: 2vw;
+    display: flex;
     border: none;
-    margin: auto;
   }
-  nav ul li a {
-    margin: auto;
+  nav ul li {
+    border: none;
   }
-  div.figureGallery figure {
-    flex-basis: 20%;
+  nav nav ul li a {
+    padding: 0.5rem 1rem;
   }
 }

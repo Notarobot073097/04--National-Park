@@ -11,21 +11,22 @@ div#headerWrapper {
     background-position: center bottom;
   }
 
+nav{
+button{
+    display: none;
+}
+ul, ul.open{
+margin-left: 2vw;
+display: flex;
+border: none;
+}//end of UL
+
+ul li{
+    border: none; 
+}//end of Nav
+
+
 nav ul li a{
     padding: .5rem 1rem;
 }
-
-nav {
-    ul{
-        justify-content: flex-start;
-        border: none;
-        margin: auto;
-    }
-    ul li a{
-        margin: auto;
-    }
-}
-
-div.figureGallery figure{
-    flex-basis: 20%;
 }

@@ -6,15 +6,21 @@ div#headerWrapper {
 
 nav{
     ul{
-        display: flex;
-        justify-content: space-between;
+        display: none;
     }
+
+    ul.open{
+        display: block;
+        justify-content: space-between;
+        border: none;
+        }
+
+    ul li{
+        border: none; 
+    }
+
     ul li a{
         border: none;
         text-align: center;
     }
-}
-
-div.figureGallery figure{
-    flex-basis: 25%;
 }
