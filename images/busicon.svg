@@ -9,50 +9,50 @@
 </style>
 
 <path class="st0" d="M211.48,147.21H41.01V49.79c0-5.81,4.71-10.53,10.53-10.53h149.41c5.81,0,10.53,4.71,10.53,10.53V147.21z">
-   <animateMotion dur="3s" repeatCount="3" path="M0, 0 C0, 0 10,-10 0,0 z"/></path>
+<animateMotion dur="1s" repeatCount="indefinite" path="M0, 0 C0, 0 10,-10 0,0 z"/></path>
 
 <path class="st0" d="M241.01,147.21h-29.53V92.64h23.07c3.57,0,6.46,2.89,6.46,6.46V147.21z">
-<animateMotion dur="3s" repeatCount="3" path="M0, 0 C0, 0 10,-10 0,0 z"/></path>
+<animateMotion dur="1s" repeatCount="indefinite" path="M0, 0 C0, 0 10,-10 0,0 z"/></path>
 
 <ellipse class="st0" cx="213.8" cy="147.21" rx="10.46" ry="17.31">
-<animateMotion dur="3s" repeatCount="3" path="M0, 0 C0, 0 10,-10 0,0 z"/></ellipse>
+<animateMotion dur="1s" repeatCount="indefinite" path="M0, 0 C0, 0 10,-10 0,0 z"/></ellipse>
 
 <ellipse class="st0" cx="82.75" cy="147.21" rx="10.46" ry="17.31">
-<animateMotion dur="3s" repeatCount="3" path="M0, 0 C0, 0 10,-10 0,0 z"/></ellipse>
+<animateMotion dur="1s" repeatCount="indefinite" path="M0, 0 C0, 0 10,-10 0,0 z"/></ellipse>
 
 <ellipse class="st1" cx="82.8" cy="147.97" rx="5.91" ry="9.77">
-<animateMotion dur="3s" repeatCount="3" path="M0, 0 C0, 0 10,-10 0,0 z"/></ellipse>
+<animateMotion dur="1s" repeatCount="indefinite" path="M0, 0 C0, 0 10,-10 0,0 z"/></ellipse>
 
 <ellipse class="st0" cx="82.8" cy="147.97" rx="2.03" ry="3.35">
-<animateMotion dur="3s" repeatCount="3" path="M0, 0 C0, 0 10,-10 0,0 z"/></ellipse>
+<animateMotion dur="1s" repeatCount="indefinite" path="M0, 0 C0, 0 10,-10 0,0 z"/></ellipse>
 
 <ellipse class="st1" cx="213.8" cy="147.21" rx="5.91" ry="9.77">
-<animateMotion dur="3s" repeatCount="3" path="M0, 0 C0, 0 10,-10 0,0 z"/></ellipse>
+<animateMotion dur="1s" repeatCount="indefinite" path="M0, 0 C0, 0 10,-10 0,0 z"/></ellipse>
 
 <ellipse class="st0" cx="213.8" cy="147.21" rx="2.03" ry="3.35">
-<animateMotion dur="3s" repeatCount="3" path="M0, 0 C0, 0 10,-10 0,0 z"/></ellipse>
+<animateMotion dur="1s" repeatCount="indefinite" path="M0, 0 C0, 0 10,-10 0,0 z"/></ellipse>
 
 <rect x="73.01" y="55.21" class="st1" width="40.43" height="33.91">
-<animateMotion dur="3s" repeatCount="3" path="M0, 0 C0, 0 10,-10 0,0 z"/></rect>
+<animateMotion dur="1s" repeatCount="indefinite" path="M0, 0 C0, 0 10,-10 0,0 z"/></rect>
 
 <rect x="116.73" y="55.21" class="st1" width="40.43" height="33.91">
-<animateMotion dur="3s" repeatCount="3" path="M0, 0 C0, 0 10,-10 0,0 z"/></rect>
+<animateMotion dur="1s" repeatCount="indefinite" path="M0, 0 C0, 0 10,-10 0,0 z"/></rect>
 
 <rect x="163.32" y="59.48" class="st1" width="14.62" height="29.64">
-<animateMotion dur="3s" repeatCount="3" path="M0, 0 C0, 0 10,-10 0,0 z"/></rect>
+<animateMotion dur="1s" repeatCount="indefinite" path="M0, 0 C0, 0 10,-10 0,0 z"/></rect>
 
 <rect x="184.1" y="55.21" class="st1" width="16.2" height="33.2">
-<animateMotion dur="3s" repeatCount="3" path="M0, 0 C0, 0 10,-10 0,0 z"/></rect>
+<animateMotion dur="1s" repeatCount="indefinite" path="M0, 0 C0, 0 10,-10 0,0 z"/></rect>
 
 <rect x="203.34" y="55.21" class="st1" width="8.1" height="33.2">
-<animateMotion dur="3s" repeatCount="3" path="M0, 0 C0, 0 10,-10 0,0 z"/></rect>
+<animateMotion dur="1s" repeatCount="indefinite" path="M0, 0 C0, 0 10,-10 0,0 z"/></rect>
 
 <rect x="41.01" y="55.21" class="st1" width="29.12" height="33.91">
-<animateMotion dur="3s" repeatCount="3" path="M0, 0 C0, 0 10,-10 0,0 z"/></rect>
+<animateMotion dur="1s" repeatCount="indefinite" path="M0, 0 C0, 0 10,-10 0,0 z"/></rect>
 
 <rect x="41.01" y="100.26" class="st2" width="170.33" height="4.51">
-<animateMotion dur="3s" repeatCount="3" path="M0, 0 C0, 0 10,-10 0,0 z"/></rect>
+<animateMotion dur="1s" repeatCount="indefinite" path="M0, 0 C0, 0 10,-10 0,0 z"/></rect>
    
 <rect x="41.09" y="111.02" class="st2" width="170.33" height="4.51">
-<animateMotion dur="3s" repeatCount="3" path="M0, 0 C0, 0 10,-10 0,0 z"/></rect>
+<animateMotion dur="1s" repeatCount="indefinite" path="M0, 0 C0, 0 10,-10 0,0 z"/></rect>
 </svg>
