@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 22 22">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: .1px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-4 {
+        fill: #f1ad46;
+      }
+
+      .cls-2 {
+        fill: #7597a1;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke-width: .25px;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <image width="200" height="200" transform="scale(.11)" xlink:href="../../../../Downloads/nationalparktour.png"/>
+  </g>
+  <g id="Layer_2" data-name="Layer 2">
+    <polygon class="cls-1" points="14.83 15.63 12.74 14.55 12.74 8.72 14.83 9.65 14.83 15.63"/>
+    <polygon class="cls-1" points="15.02 15.63 17.11 14.55 17.11 8.72 15.02 9.65 15.02 15.63"/>
+    <polygon class="cls-1" points="10.52 15.63 12.61 14.55 12.61 8.72 10.52 9.65 10.52 15.63"/>
+    <polygon class="cls-1" points="19.39 15.63 17.29 14.55 17.29 8.72 19.39 9.65 19.39 15.63"/>
+    <path class="cls-3" d="m10.23,4.53c.19.49.29,1.05.29,1.63,0,2.13-1.4,3.86-3.12,3.86s-3.12-1.73-3.12-3.86c0-.58.1-1.13.29-1.63"/>
+    <path class="cls-4" d="m4.56,4.53c.5-1.32,1.58-2.24,2.83-2.24s2.33.92,2.83,2.24"/>
+    <path class="cls-2" d="m7.39,19.56H3.06s-.03-5.35.14-6.57,2.52-2.38,2.52-2.38c0,0,1.15,1.1,1.68.85"/>
+    <path class="cls-2" d="m7.22,19.56h4.34s.03-5.35-.14-6.57-2.52-2.38-2.52-2.38c0,0-1.15,1.1-1.68.85"/>
+    <rect class="cls-4" x="2.45" y="4.53" width="10.37" height="1.27" rx=".64" ry=".64"/>
+  </g>
+</svg>
