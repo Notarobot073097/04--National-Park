@@ -1,40 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #fff;
-      }
-
-      .cls-2 {
-        fill: #f1ad46;
-      }
-
-      .cls-3 {
-        fill: #231f20;
-      }
-    </style>
-  </defs>
-  <rect class="cls-2" y="5.07" width="17.06" height="3.97"/>
-  <rect class="cls-3" x="1.39" y="1.25" width="4.64" height="5.45"/>
-  <rect class="cls-3" x="6.32" y="1.2" width="3.79" height="5.45"/>
-  <rect class="cls-3" x="10.11" y="3.1" width="5.82" height="3.55"/>
-  <rect class="cls-3" x="10.11" y="2.76" width="5.82" height=".28"/>
-  <rect class="cls-3" x="11.15" y="2.1" width="1.07" height=".71"/>
-  <rect class="cls-3" x="6.58" y=".67" width="3.16" height=".53"/>
-  <rect class="cls-3" x="2.86" y=".67" width="3.17" height=".59"/>
-  <rect class="cls-3" x="2.5" width="1.21" height=".24"/>
-  <rect class="cls-3" x="2.96" y=".33" width=".55" height=".12" transform="translate(3.63 -2.84) rotate(90)"/>
-  <rect class="cls-1" x="1.9" y="1.85" width="1.03" height="1.03"/>
-  <rect class="cls-1" x="3.16" y="1.85" width="1.03" height="1.03"/>
-  <rect class="cls-1" x="4.49" y="1.85" width="1.03" height="1.03"/>
-  <rect class="cls-1" x="1.9" y="4.67" width="3.62" height="1.44"/>
-  <rect class="cls-1" x="6.69" y="4.99" width="3.05" height="1.56"/>
-  <rect class="cls-1" x="12.86" y="5.17" width=".94" height="1.48"/>
-  <path class="cls-1" d="m7.1,1.85h0c.23,0,.41.18.41.41v1.57h-.82v-1.57c0-.23.18-.41.41-.41Z"/>
-  <path class="cls-1" d="m8.21,1.85h0c.23,0,.41.18.41.41v1.57h-.82v-1.57c0-.23.18-.41.41-.41Z"/>
-  <path class="cls-1" d="m9.33,1.85h0c.23,0,.41.18.41.41v1.57h-.82v-1.57c0-.23.18-.41.41-.41Z"/>
-  <path class="cls-1" d="m10.65,4.88h0c.12,0,.22.1.22.22v.63h-.44v-.63c0-.12.1-.22.22-.22Z"/>
-  <path class="cls-1" d="m11.41,4.88h0c.12,0,.22.1.22.22v.63h-.44v-.63c0-.12.1-.22.22-.22Z"/>
-  <path class="cls-1" d="m12.22,4.88h0c.12,0,.22.1.22.22v.63h-.44v-.63c0-.12.1-.22.22-.22Z"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 22 22" style="enable-background:new 0 0 22 22;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F1AD46;}
+	.st1{fill:#FFFFFF;}
+</style>
+<rect x="2.47" y="11.73" class="st0" width="17.06" height="3.97"/>
+<rect x="3.86" y="7.91" width="4.64" height="5.45"/>
+<rect x="8.79" y="7.86" width="3.79" height="5.45"/>
+<rect x="12.58" y="9.76" width="5.82" height="3.55"/>
+<rect x="12.58" y="9.42" width="5.82" height="0.28"/>
+<rect x="13.62" y="8.76" width="1.07" height="0.71"/>
+<rect x="9.05" y="7.33" width="3.16" height="0.53"/>
+<rect x="5.33" y="7.33" width="3.17" height="0.59"/>
+<rect x="4.97" y="6.66" width="1.21" height="0.24"/>
+<rect x="5.43" y="6.99" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 12.7597 1.3472)" width="0.55" height="0.12"/>
+<rect x="4.37" y="8.51" class="st1" width="1.03" height="1.03"/>
+<rect x="5.63" y="8.51" class="st1" width="1.03" height="1.03"/>
+<rect x="6.96" y="8.51" class="st1" width="1.03" height="1.03"/>
+<rect x="4.37" y="11.33" class="st1" width="3.62" height="1.44"/>
+<rect x="9.16" y="11.65" class="st1" width="3.05" height="1.56"/>
+<rect x="15.33" y="11.83" class="st1" width="0.94" height="1.48"/>
+<path class="st1" d="M9.98,10.49H9.16V8.92c0-0.23,0.18-0.41,0.41-0.41h0c0.23,0,0.41,0.18,0.41,0.41V10.49z"/>
+<path class="st1" d="M11.1,10.49h-0.82V8.92c0-0.23,0.18-0.41,0.41-0.41h0c0.23,0,0.41,0.18,0.41,0.41V10.49z"/>
+<path class="st1" d="M12.21,10.49h-0.82V8.92c0-0.23,0.18-0.41,0.41-0.41h0c0.23,0,0.41,0.18,0.41,0.41V10.49z"/>
+<path class="st1" d="M13.34,12.38H12.9v-0.63c0-0.12,0.1-0.22,0.22-0.22l0,0c0.12,0,0.22,0.1,0.22,0.22V12.38z"/>
+<path class="st1" d="M14.11,12.38h-0.44v-0.63c0-0.12,0.1-0.22,0.22-0.22h0c0.12,0,0.22,0.1,0.22,0.22V12.38z"/>
+<path class="st1" d="M14.92,12.38h-0.44v-0.63c0-0.12,0.1-0.22,0.22-0.22l0,0c0.12,0,0.22,0.1,0.22,0.22V12.38z"/>
 </svg>
